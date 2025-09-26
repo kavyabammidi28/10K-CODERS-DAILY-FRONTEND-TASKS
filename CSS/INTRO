@@ -1,0 +1,17 @@
+#CSS (Cascading Style Sheets) 
+✅ What is CSS?
+CSS is used to style HTML elements.
+It controls colors, fonts, layouts, spacing, borders, backgrounds, etc.
+Without CSS → a page looks plain. With CSS → it looks attractive.
+
+🎨 CSS Syntax:
+selector {
+  property: value;
+}
+
+EXAMPLE:
+h1 {
+  color: green;
+  font-size: 30px;
+}
+
