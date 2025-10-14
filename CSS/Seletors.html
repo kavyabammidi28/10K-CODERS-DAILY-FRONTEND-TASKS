@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        /*-- TASK1 --*/
+        div p span {
+            color: red;
+        }
+
+        /*-- TASK2 --*/
+        ul > li {
+            background-color: lightblue;
+        }
+
+        /*-- TASK3 --*/
+        h2 + p {
+            color: brown;
+            font-weight: bold;
+        }
+
+        /*-- TASK4 --*/
+        h1 ~ p {
+            color: green;
+        }
+
+        /*-- TASK5 --*/
+        ol li:first-child {
+            font-weight: bold;
+        }
+        ol li:last-child {
+            font-style: italic;
+        }
+
+        /*-- TASK6 --*/
+        button:hover {
+            background-color: yellow;
+            color: black;
+        }
+
+        /*-- TASK7 --*/
+        input:focus {
+            border: 2px solid blue;
+            background-color: #e0ffe0;
+        }
+
+        /*-- TASK8 --*/
+        p::first-letter {
+            font-size: 30px;
+            color: red;
+            font-weight: bold;
+        }
+
+        /*-- TASK9 --*/
+        h2::before {
+            content: "Welcome🖐 ";
+        }
+
+        /*-- TASK10 --*/
+        p::selection {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello CSS!</h1>
+    <p>This is a paragraph styled from an external CSS file.</p>
+</body>
+</html>
