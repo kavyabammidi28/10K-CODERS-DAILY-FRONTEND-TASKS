@@ -1,0 +1,30 @@
+<!--Task10: 
+• Write a paragraph. 
+• Change the background color and text color when the user 
+selects text -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 10 - Text Selection Effect</title>
+
+    <style>
+        /* ::selection pseudo-element */
+        p::selection {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Task 10: Text Selection</h2>
+    <p>
+        This is a simple paragraph. Try selecting this text using your mouse or keyboard. 
+        When you highlight the text, the background and text color will change using CSS ::selection.
+    </p>
+
+</body>
+</html>
