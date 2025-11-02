@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 - Descendant Selector</title>
+
+    <style>
+        /* Only select span that is inside a paragraph inside the div */
+        div p span {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Content inside the div -->
+    <div>
+        <p>This is the first paragraph.</p>
+        <p>This is the second paragraph with a <span>special word</span> inside.</p>
+        <p>This is the third paragraph.</p>
+    </div>
+
+    <!-- Content outside the div -->
+    <p>Outside paragraph with <span>another span</span> — this one should not be red.</p>
+
+</body>
+</html>
+
