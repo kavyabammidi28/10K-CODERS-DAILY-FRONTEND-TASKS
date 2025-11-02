@@ -1,0 +1,148 @@
+/* padding */
+h3{
+    border: 2px solid red;
+ }
+
+
+h5{
+    border: 2px solid red;
+    padding: 10px;
+}
+
+h2{
+    border: 2px solid red;
+    padding-top: 10px;
+}
+
+
+h1{
+    border: 2px solid red;
+    padding-bottom: 10px;
+}
+
+h4{
+    border: 2px solid red;
+    padding-right: 10px;
+}
+
+h6{
+    border: 2px solid red;
+    padding-bottom: 10px;
+}
+
+
+/* margin 
+div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rebeccapurple;
+    margin: 10px; 
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rebeccapurple;
+    margin-top: 10px;
+}*/
+
+div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rebeccapurple;
+    margin-bottom: 10px;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rebeccapurple;
+    margin-left: 10px;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rebeccapurple;
+    margin-right: 10px;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rebeccapurple;
+    margin:  auto 10px;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rebeccapurple;
+    margin: 10px auto;
+}
+
+
+/* borders */
+div{
+    width: 50px;
+    height: 50px;
+    border: 10px solid rebeccapurple;
+}
+
+
+div1{
+    width: 50px;
+    height: 50px;
+    border-width: 10px;
+    border-style: dotted;
+}
+
+div2{
+    width: 50px;
+    height: 50px;
+    border-width: 10px;
+    border-style: double;
+}
+
+div3{
+    width: 50px;
+    height: 50px;
+    border-width: 10px;
+    border-style: dashed;
+}
+
+div4{
+    width: 50px;
+    height: 50px;
+    border-width: 10px;
+    border-style: groove;
+}
+
+div5{
+    width: 50px;
+    height: 50px;
+    border-width: 10px;
+    border-style: ridge;
+}
+
+div6{
+    width: 50px;
+    height: 50px;
+    border-width: 10px;
+    border-style: inset;
+}
+
+div7{
+    width: 50px;
+    height: 50px;
+    border-width: 10px;
+    border-style: outset;
+}
+
+div8{
+    width: 50px;
+    height: 50px;
+    border-width: 10px;
+    border-style: none;
+}
+
